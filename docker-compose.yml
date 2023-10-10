@@ -1,6 +1,6 @@
 services:
   spring-boot-app:
-    image: backend
+    image: ex2
     ports: 
       - "0.0.0.0:8091:8091"
     environment:
