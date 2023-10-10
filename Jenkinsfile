@@ -22,7 +22,7 @@ pipeline {
       steps {
         dir("ex2"){
           sh "mvn clean install"
-          sh "docker build -t backend"
+          sh "docker build -t ex2"
         }
       }
     }
